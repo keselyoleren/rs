@@ -1,0 +1,10 @@
+# Rust build output (semua subproyek)
+target/
+**/target/
+
+# Backtrace / debug
+*.pdb
+.claude/
+
+# Cargo lock untuk library (opsional, biarkan untuk binary)
+# Cargo.lock
